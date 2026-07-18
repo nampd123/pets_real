@@ -1,0 +1,5 @@
+ALTER TABLE pets
+    ADD COLUMN quantity INT NOT NULL DEFAULT 1;
+
+ALTER TABLE order_items
+    ADD COLUMN quantity INT NOT NULL DEFAULT 1;
